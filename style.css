@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0 3rem;
+    background: rgb(197, 210, 231);
+}
+.main {
+    height: 40px;
+    width: 100%;
+    /* background: white; */
+    text-align: end;
+    padding-top: 20px;
+}
+a {
+    text-decoration: none;
+}
+.main a {
+    margin-right:30px; 
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: black;
+
+}
+#main-card {
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-flow: wrap;
+    flex-flow: row wrap;
+    
+    /* justify-content: space-evenly; */
+}
+
+#main-card>.main-card1 {
+    width: 49%;
+    height: 80vh;
+    margin-top: 2rem;
+    display: flex; justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+   
+}
+#main-card>.main-card2 {
+    width: 49%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 2rem;
+}
+h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+p {
+    font-size: 1.2rem;
+}
+button {
+    margin-top: 2rem;
+    font-size: 1rem;
+    background: black;
+    width: 13rem;
+    height: 3rem;
+    border-radius: .3rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+button a {
+    color: white;
+
+}
+.hero-img {
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+/* card section code start  */
+
+.cardsdiv{
+    height: 70vh;
+    background: rgb(197, 210, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+
+}
+.cardsdiv>div {
+    width: 17rem;
+    height: 10rem;
+    background: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 1rem;
+
+}
+.cardsdiv img {
+    width: 80%;
+    position: relative;
+
+  
+}
+.card1 img {
+position: absolute;
+margin-bottom: 11.5rem;
+
+}
+.card2 img {
+    position: absolute;
+    margin-bottom: 11.5rem;  
+}
+.card3 img {
+    position: absolute;
+    margin-bottom: 11.5rem; 
+}
+.para{
+    margin-top: 8rem;
+    line-height:1px;
+}
+h3 {
+    margin-bottom: 2rem;
+}
+
+.hero1 {
+    transform: rotate(-90deg);
+    /* flex-direction: row-reverse; */
+}
