@@ -6,7 +6,6 @@ body {
 .main {
     height: 40px;
     width: 100%;
-    /* background: white; */
     text-align: end;
     padding-top: 20px;
 }
@@ -29,14 +28,14 @@ a {
     flex-flow: wrap;
     flex-flow: row wrap;
     
-    /* justify-content: space-evenly; */
 }
 
 #main-card>.main-card1 {
     width: 49%;
     height: 80vh;
     margin-top: 2rem;
-    display: flex; justify-content: center;
+    display: flex; 
+    justify-content: center;
     align-items: start;
     flex-direction: column;
 
@@ -47,7 +46,6 @@ a {
     height: 80vh;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     margin-top: 2rem;
 }
 h1 {
@@ -75,9 +73,9 @@ button a {
     flex-wrap: wrap;
 }
 
-/* card section code start  */
+/*! card section code start  */
 
-.cardsdiv{
+ .cardsdiv{
     height: 70vh;
     background: rgb(197, 210, 231);
     display: flex;
@@ -130,5 +128,5 @@ h3 {
 
 .hero1 {
     transform: rotate(-90deg);
-    /* flex-direction: row-reverse; */
-}
+    flex-direction: row-reverse;
+} 
